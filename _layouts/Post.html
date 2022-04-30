@@ -40,6 +40,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Raleway:300" rel="stylesheet">
     {%- if page.title -%}
     <meta content="{{ page.title }}" property="og:title">
     <meta content="article" property="og:type">
@@ -82,14 +83,14 @@
                     <div class="column is-half">
                             {%- include FeedContent.html -%}
                             {%- include Feed.html -%}
-                            {%- include Footer.html -%}             
+                            {%- include Footer.html -%}
                 </div>
                     {%- endif -%}
             {%- endif -%}
 
             <!---CASE 2 : Notes & Blog Page-->
 
-            {%- if page.content-type == "notes" 
+            {%- if page.content-type == "notes"
             or page.content-type == "post"  -%}
                 <div class="column is-three-fifths">
                     <main>
@@ -133,7 +134,7 @@
                 </div>
             {%- endif -%}
 
-            <!--- CASE 4 :  Blog Listing page -->   
+            <!--- CASE 4 :  Blog Listing page -->
 
             {%- if page.permalink == "/posts" -%}
                 <div class="column is-half">
@@ -154,21 +155,21 @@
                             </div>
                         {%- endfor -%}
                     </div>
-                    {%- include Footer.html -%} 
+                    {%- include Footer.html -%}
                 </div>
             {%- endif -%}
 
-            <!--- CASE 5 :  Notes Listing page -->   
+            <!--- CASE 5 :  Notes Listing page -->
 
             {%- if page.permalink == "/notes" -%}
                 <div class="column is-half">
                     {%- include FeedContent.html -%}
                     {%- include Feed.html -%}
-                    {%- include Footer.html -%}             
+                    {%- include Footer.html -%}
                 </div>
             {%- endif -%}
 
         </div>
-    </section>     
+    </section>
 </body>
 </html>

@@ -175,7 +175,7 @@ iframe,
 hr,
 {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 ul {
@@ -237,8 +237,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "IBM Plex Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
-
+  font-family: 'Frank Ruhl Libre',"IBM Plex Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 code,
 pre {
   -moz-osx-font-smoothing: auto;
@@ -3887,7 +3886,7 @@ a.navbar-item,
 @media screen and (min-width: 769px), print {
   .section.is-note .column.is-primary-content,
     .note-page-section {
-      padding: 3rem 8rem; } 
+      padding: 3rem 8rem; }
   .note-cards .content {
     width: 88%; }
     }
