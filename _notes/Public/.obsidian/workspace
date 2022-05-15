@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "c663c62ed5c6ab7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8986f41a2f59c1c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "How to retain what you read.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2564272221f054c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2976f0df85a1de9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0757f61ff32f4207",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1236d03881ad8b28",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e2b0f9151badef05",
+    "type": "split",
+    "children": [
+      {
+        "id": "58c9e791bd08389a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "223b50430ced2417",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "How to retain what you read.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8986f41a2f59c1c5",
+  "lastOpenFiles": [
+    "How to retain what you read.md",
+    "Markdown Rendered.md",
+    "Hidden Note.md"
+  ]
+}
