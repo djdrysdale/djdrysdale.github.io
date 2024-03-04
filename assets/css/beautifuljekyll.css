@@ -129,8 +129,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#336699" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
+  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
+  border-bottom: 1px solid {{ site.navbar-border-col | default: "#336699" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -266,10 +266,10 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: {{ site.navbar-col | default: "#336699" }};
+  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
   text-decoration: none !important;
   font-weight: normal;
-  color: {{ site.navbar-text-col | default: "#DDDDDD" }};
+  color: {{ site.navbar-text-col | default: "#404040" }};
   {% unless site.navbar-var-length %}
   white-space: normal;
   {% endunless %}
